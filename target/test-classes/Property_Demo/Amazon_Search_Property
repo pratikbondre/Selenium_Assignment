@@ -1,0 +1,14 @@
+ckey=webdriver.chrome.driver
+cvalue=src/test/resources/driver/chromedriver.exe
+browser=Chrome
+
+url=https://www.amazon.in/
+
+Searchbox=twotabsearchtextbox
+Product= Wrist Watches
+submit=//*[@id="nav-search-submit-button"]
+Display=//*[@id="p_n_feature_seven_browse-bin/1480900031"]/span/a/div/label/i
+Brands_Material=//*[@id="p_n_material_browse/1480907031"]/span/a/span
+Brand=//*[@id="p_89/Titan"]/span/a/span
+Discount=//*[@id="p_n_pct-off-with-tax/2665400031"]/span/a/span
+discounts= 35% or more
